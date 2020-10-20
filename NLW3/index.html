@@ -1,0 +1,63 @@
+<!--
+HTML
+Hypertext
+   hipertexto
+
+Markup
+    marcação <tags>
+
+Language
+    linguagem
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy</title>
+
+    <!--root é o diretorio/pasta raiz (./), href é um atributo especifico para fazer o caminho do diretorio, o caminho pode ser absoluto ou relativo -->
+
+    <link rel="icon" href="./public/images/logo-icon.png" />
+
+    <link rel="stylesheet" href="./public/CSS/main.css" />
+    <link rel="stylesheet" href="./public/CSS/animation.css" />
+    <link rel="stylesheet" href="./public/CSS/page-landing.css" />
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet"/>
+
+  </head>
+  <!--colocar style direto no body abaixo sobrepoe qlq regra, ele é a regra mais forte-->
+  <body>
+    <div id="page-landing">
+      <div id="container">
+        <header>
+          <img 
+          class="animate-up"
+          id="logo" 
+          src="./public/images/logo.svg" 
+          alt="Logomarca de Happy" />
+
+          <div class="Location animate-up">
+            <strong>Curitiba</strong>
+            <p>Paraná</p>
+          </div>
+        </header>
+
+        <main>
+          <h1 class="animate-up">Leve felicidade para o mundo</h1>
+
+          <section class="Visit">
+            <p class="animate-up">Visite orfanatos e mude o dia de muitas crianças</p>
+            <a href="orphanages.html" title="Visite orfanatos" class="animate-up">
+              <img src="./public/images/arrow.svg" alt="Ir para o mapa" />
+            </a>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
